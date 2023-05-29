@@ -5,32 +5,32 @@
 }
 
 @font-face {
-  font-family: "Satoshi";
-  src: url("/assets/fonts/Satoshi-Black.otf");
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/Satoshi-Black.otf');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Satoshi";
-  src: url("/assets/fonts/Satoshi-Bold.otf");
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/Satoshi-Bold.otf');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Satoshi";
-  src: url("/assets/fonts/Satoshi-Medium.otf");
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/Satoshi-Medium.otf');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Satoshi";
-  src: url("/assets/fonts/Satoshi-Regular.otf");
+  font-family: 'Satoshi';
+  src: url('/assets/fonts/Satoshi-Regular.otf');
   font-weight: 400;
   font-style: normal;
 }
 
 body {
-  font-family: "Barlow", "Arges", sans-serif;
+  font-family: 'Barlow', 'Arges', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -40,7 +40,7 @@ body {
 }
 
 h1 {
-  font-family: "Satoshi", "Arges", sans-serif;
+  font-family: 'Satoshi', 'Arges', sans-serif;
 }
 
 a {
@@ -70,7 +70,7 @@ a {
 
 /*========== Button styling ==========*/
 .btn {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -115,7 +115,7 @@ a {
 
 /*========== Hero section styling ==========*/
 .wlc-zeta {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
@@ -146,7 +146,7 @@ a {
 }
 
 .hero-desc {
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   padding: 16px 0;
   font-size: 18px;
   line-height: 28px;
@@ -186,7 +186,7 @@ a {
 }
 
 .review-left h3 {
-  font-family: "Satoshi";
+  font-family: 'Satoshi';
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
@@ -229,7 +229,7 @@ a {
 }
 
 .rating-number p {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -241,7 +241,7 @@ a {
 }
 
 .review-right h3 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -262,7 +262,7 @@ a {
 }
 
 .review-right-item p {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 26px;
   color: #c7d9fc;
@@ -294,14 +294,14 @@ a {
 }
 
 .st-info-left p {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 27px;
   color: #c7d9fc;
 }
 
 .st-author-name {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -310,7 +310,7 @@ a {
 
 .st-author-position {
   margin-top: 8px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 22px;
   color: #c7d9fc;
@@ -318,7 +318,7 @@ a {
 
 .single-testimonial-text {
   margin-top: 8px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 24px;
   line-height: 34px;
   color: #fcfcfd;
@@ -366,7 +366,7 @@ a {
 
 .multi-testimonial-text {
   margin-top: 8px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 26px;
   color: #fcfcfd;
@@ -386,7 +386,7 @@ a {
 }
 
 .multi-testimonial-info .author-name {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -395,7 +395,7 @@ a {
 
 .multi-testimonial-info .author-position {
   margin-top: 8px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 22px;
   color: #c7d9fc;
@@ -439,7 +439,7 @@ a {
 
 .process-card-content {
   margin-top: 32px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 34px;
   text-align: center;
@@ -447,7 +447,7 @@ a {
 }
 
 .process-heading {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
@@ -487,14 +487,14 @@ a {
 .faq-left h2 {
   margin-top: 19px;
   margin-bottom: 16px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 36px;
   line-height: 49px;
 }
 
 .faq-left p {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 26px;
   color: rgba(255, 255, 255, 0.7);
@@ -526,7 +526,7 @@ a {
 }
 
 .faq-accordion-title {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -539,7 +539,7 @@ a {
 }
 
 .faq-accordion-body p {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 26px;
   color: rgba(255, 255, 255, 0.7);
@@ -551,20 +551,24 @@ a {
   padding: 96px 0;
 }
 
+.bg-eff-mob {
+  display: none;
+}
+
 .booking-inner {
   background: #1d2939;
   border: 1px solid #475467;
   border-radius: 16px;
   padding: 42px;
   padding-bottom: 62px;
-  background-image: url("/assets/images/booking-bg.png");
+  background-image: url('/assets/images/booking-bg.png');
   background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .booking-content h3 {
-  font-family: "Satoshi";
+  font-family: 'font1';
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -573,7 +577,7 @@ a {
 }
 
 .booking-content p {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 32px;
   color: #e4e7ec;
@@ -583,6 +587,12 @@ a {
   margin-top: 24px;
   display: flex;
   gap: 24px;
+}
+.booking-btns button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .booking-img {
@@ -595,6 +605,80 @@ a {
   width: 175px;
   height: 175px;
   max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .booking-wrapper .booking-inner .booking-content h3 {
+    font-size: 28px;
+  }
+  .booking-content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .booking-btns button {
+    padding: 10px 25px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .booking-wrapper {
+    background-color: inherit;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .booking-wrapper .booking-inner .booking-content h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .booking-inner {
+    padding: 20px;
+    padding-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .booking-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .booking-img {
+    display: none;
+  }
+  .booking-content {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+  }
+  .booking-btns {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .booking-btns button {
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 302px;
+    height: 48px;
+  }
+
+  .bg-eff-mob {
+    display: block;
+
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: 9;
+  }
+  #utopia {
+    margin-bottom: 0px !important;
+  }
 }
 
 /*========== Newsletter section styling ==========*/
@@ -612,7 +696,7 @@ a {
 }
 
 .newsletter-container h2 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -638,11 +722,64 @@ a {
 
 .newsletter-input input::placeholder,
 .newsletter-input input {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #98a2b3;
+}
+
+@media screen and (max-width: 1200px) {
+  .newsletter-container {
+    flex-direction: column;
+    gap: 25px;
+    max-width: 844px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .newsletter-container {
+    max-width: 506px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Newsletter-wrapper {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    overflow: hidden;
+  }
+  .newsletter-container {
+    gap: 16px;
+    max-width: 335px;
+  }
+  .newsletter-container h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+  .newsletter-input {
+    gap: 8px;
+  }
+  .newsletter-input input {
+    padding: 11px 16px;
+    width: 236px;
+    height: 40px;
+  }
+  .newsletter-input input::placeholder,
+  .newsletter-input input {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .Newsletter-wrapper .newsletter-input button {
+    padding: 11px 16px;
+    width: 91px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*========== Footer section styling ==========*/
@@ -676,7 +813,7 @@ a {
 
 .footer-social a {
   padding: 8px 16px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
 }
 
@@ -688,13 +825,13 @@ a {
 }
 
 .footer-menu a {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 24px;
 }
 
 .copyright-text {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
   line-height: 26px;
   text-align: right;
@@ -724,3 +861,384 @@ a {
     max-width: 41.6666666667%;
   }
 }
+
+/*=============================================
+=            Contact Page            =
+=============================================*/
+
+#form-section {
+  margin: 64px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 844px;
+  gap: 24px;
+}
+
+#form-section .header-text {
+  min-width: 294px;
+}
+
+#form-section .header-text h1 {
+  font-size: 32px;
+  font-weight: 700px;
+  padding-bottom: 16px;
+  color: #f9fafb;
+}
+
+#form-section .header-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #d0d5dd;
+}
+
+.contact-form {
+  background-color: #1d2939;
+  padding: 32px;
+  border-radius: 8px;
+  width: 506px;
+}
+
+.contact-form .field {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  color: #d0d5dd;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.contact-form .field input,
+.contact-form textarea {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #344054;
+  border-radius: 8px;
+  padding: 15px 16px;
+  color: #d0d5dd;
+  font-size: 16px;
+  width: 100%;
+}
+.contact-form textarea {
+  resize: none;
+  margin-top: 8px;
+}
+
+.contact-form .field input::placeholder,
+.contact-form textarea::placeholder {
+  font-family: 'Barlow', 'Arges', sans-serif;
+  font-size: 16px;
+  color: #475467;
+}
+
+.contact-form .button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form .button button {
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  #form-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+    max-width: 506px;
+  }
+  #form-section .header-text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #form-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+    max-width: 335px;
+    margin: 32px auto;
+  }
+  #form-section .header-text {
+    width: 100%;
+  }
+  .contact-form {
+    max-width: 335px;
+  }
+  .contact-form label {
+    font-size: 16px;
+  }
+
+  .contact-form .field input::placeholder,
+  .contact-form textarea::placeholder {
+    font-size: 14px;
+  }
+  .contact-form .button button {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+/*=====  End of Contact Page  ======*/
+
+/*=============================================
+=            Case Study Page            =
+=============================================*/
+
+#case-study {
+  margin-top: 48px;
+
+  position: relative;
+}
+
+/* .cs-container {
+  max-width: 1248px;
+  margin: 0 auto;
+} */
+
+@font-face {
+  font-family: 'font1';
+  src: url('./assets/Satoshi-Bold.otf');
+  font-weight: 700;
+}
+
+#case-study #header h1 {
+  font-size: 72px;
+  font-family: 'font1';
+  text-align: center;
+  background: linear-gradient(91.25deg, #7dffaf -2.45%, #4e91f6 107.38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 48px;
+}
+
+#case-study .gradiant-bg {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: -100px;
+  width: 358px;
+  height: 358px;
+  background: rgba(122, 119, 255, 0.8);
+  filter: blur(200.5px);
+}
+
+#case-study section {
+  margin-left: 6.66%;
+  margin-bottom: 100px;
+}
+
+#three {
+  margin-bottom: 72px;
+}
+
+#ikiyoyo {
+  margin-bottom: 72px;
+}
+
+#utopia {
+  margin-bottom: 150px !important;
+}
+
+.slider-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 999;
+  max-width: 1248px;
+  margin-bottom: 32px;
+  margin-right: 20px;
+}
+
+.slider-header h2 {
+  font-family: 'font1';
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.slider-header .btn-live {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  height: 44px;
+  background: rgba(125, 255, 175, 0.1);
+  border-radius: 8px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  color: #7dffaf;
+  cursor: pointer;
+}
+.slider-header .btn-live:hover {
+  color: rgb(81, 226, 136);
+}
+
+.slider-card {
+  background: #101828;
+  max-width: 400px;
+  height: 500px;
+  border: 1px solid #667085;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.slider-card .image img {
+  width: 100%;
+  height: 246px;
+  border-radius: 8px;
+}
+
+.slider-card .content h4 {
+  padding-top: 24px;
+  padding-bottom: 18px;
+  font-family: 'font1';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #d0d5dd;
+}
+
+.slider-card .content p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d5dd;
+  padding-bottom: 5px;
+}
+
+.slider-card .content .btn-see-more {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  color: #7dffaf;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.slider-card .content .btn-see-more:hover {
+  text-decoration: underline;
+  color: rgb(81, 226, 136);
+}
+
+.slider-item {
+  margin: 0 10px;
+  padding-left: 0px !important;
+}
+
+/* Styling the default Slick dots */
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  list-style-type: none;
+  transform: translateY(32px);
+}
+.slick-dots li {
+  margin: 0 8px !important;
+  width: auto !important;
+  height: auto !important;
+}
+.slick-dots button {
+  outline: none;
+  display: block;
+  width: 14px !important;
+  height: 14px !important;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #344054 !important;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  background: #7dffaf !important;
+}
+
+@media screen and (max-width: 1200px) {
+  #case-study section {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #case-study #header h1 {
+    font-size: 58px;
+  }
+  .slider-header h2 {
+    font-size: 32px;
+  }
+  .slider-header .btn-live {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .slick-dots li {
+    margin: 0 8px !important;
+  }
+  .slider-card {
+    max-width: 370px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #case-study #header {
+    display: none;
+  }
+  .gradiant-bg {
+    display: none;
+  }
+  .slider-header h2 {
+    font-size: 18px;
+  }
+  .slider-header .btn-live {
+    width: 91px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .slick-dots li {
+    margin: 0 8px !important;
+  }
+  .slider-card {
+    max-width: 370px;
+  }
+  #case-study section {
+    margin-left: 20px;
+  }
+
+  .slider-card {
+    max-width: 247px;
+    height: 350px;
+    padding: 12px;
+  }
+  .slider-card .image img {
+    height: 155px;
+  }
+
+  .slider-card .content h4 {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 16px;
+  }
+
+  .slider-card .content p,
+  .slider-card .content .btn-see-more {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/*=====  End of Case Study Page  ======*/
