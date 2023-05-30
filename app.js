@@ -1,6 +1,6 @@
-var accordionItems = document.getElementsByClassName('faq-accordion-btn');
-
-console.log(accordionItems);
+const accordionItems = document.getElementsByClassName('faq-accordion-btn');
+const tlReadBtn = document.getElementsByClassName("tl-btn");
+const hamburger = document.querySelector(".humburger");
 
 for (let i = 0; i < accordionItems.length; i++) {
   accordionItems[i].addEventListener('click', function () {
@@ -14,6 +14,24 @@ for (let i = 0; i < accordionItems.length; i++) {
   });
 }
 
+// for (let i = 0; i < tlReadBtn.length; i++) {
+//   tlReadBtn[i].addEventListener("click", function () {
+//     console.log(tlReadBtn[0].parentElement.children);
+//     this.classList.toggle("active");
+//     let panel = this.nextElementSibling;
+//     if (panel.style.maxHeight) {
+//       panel.style.maxHeight = null;
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//     }
+//   });
+// }
+
+hamburger.onclick = function() {
+  const nav = document.querySelector(".nav-wrapper");
+  nav.classList.toggle("active")
+}
+
 // Slick Slider scripts
 
 $(document).ready(function () {
@@ -21,22 +39,34 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
-    centerMode: true,
+    // centerMode: true,
     arrows: false,
     variableWidth: true,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.5,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.5,
         },
       },
     ],
   });
 });
+
+// $(document).ready(function () {
+//   $(".process-slider").slick({
+//     slidesToShow: 1.5,
+//     slidesToScroll: 1,
+//     dots: false,
+//     Infinity: false,
+//     // centerMode: true,
+//     arrows: false,
+//     // variableWidth: true
+//   });
+// });

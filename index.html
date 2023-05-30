@@ -20,6 +20,31 @@
       href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Nunito font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Nunito font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/slick/slick-theme.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Zeta Develops</title>
   </head>
@@ -37,10 +62,57 @@
 
           <div class="nav-items">
             <ul>
-              <li><a href="#">Case studies</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/case-study.html">Case studies</a></li>
+              <li><a href="/contact.html">Contact</a></li>
             </ul>
             <button class="btn menu-btn">Book a free review</button>
+          </div>
+
+          <div class="humburger">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="humburger-close"
+            >
+              <path
+                d="M19 4.99988L5 18.9999M5 4.99988L19 18.9999"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="humburger-open"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3 5C3 4.44772 3.44772 4 4 4H20C20.5523 4 21 4.44772 21 5C21 5.55229 20.5523 6 20 6H4C3.44772 6 3 5.55228 3 5Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3 19C3 18.4477 3.44772 18 4 18H20C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20H4C3.44772 20 3 19.5523 3 19Z"
+                fill="white"
+              />
+            </svg>
           </div>
         </div>
       </div>
@@ -58,7 +130,10 @@
                 increasing conversion rates and raising customer satisfaction.
               </p>
               <div class="hero-btns">
-                <a target="_blank" href="https://calendly.com/zetadevelops/30min">
+                <a
+                  target="_blank"
+                  href="https://calendly.com/zetadevelops/30min"
+                >
                   <button class="btn btn-primary">
                     Book a Free website review
                   </button>
@@ -67,7 +142,10 @@
                   target="_blank"
                   href="https://calendly.com/zetadevelops/website-discussion-call"
                 >
-                  <button class="btn btn-outline"> <img src="/assets/images/time-schedule.svg" alt="icon" /> Schedule a Call</button>
+                  <button class="btn btn-outline">
+                    <img src="/assets/images/time-schedule.svg" alt="icon" />
+                    Schedule a Call
+                  </button>
                 </a>
               </div>
             </div>
@@ -313,7 +391,7 @@
       <!------------- Review section end --------------->
 
       <!------------- Our marketing process section start --------------->
-      <!-- <section class="marketing-process">
+      <section class="marketing-process">
         <div class="marketing-wrapper">
           <div class="container">
             <h2 class="marketing-heading">Our Marketing Process</h2>
@@ -339,11 +417,11 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!------------- Our marketing process section end --------------->
 
       <!------------- How works section start --------------->
-      <!-- <section>
+      <section>
         <div class="how-works-wrapper">
           <div class="container">
             <h2 class="how-works-heading">You want to know how it helps you</h2>
@@ -522,16 +600,36 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!------------- How works section end --------------->
 
       <!------------- Timeline section start --------------->
-      <!-- <section>
-        <div class="timeline-wrapper"></div>
-      </section> -->
+      <section>
+        <div class="timeline-wrapper">
+          <div class="tl-mobile-inner">
+            <h2>We’ve got you covered.</h2>
+
+            <div class="tl-mobile-cards">
+              <div class="tl-mobile-card">
+                <h4>How much higher can a good website convert?</h4>
+                <p
+                  onclick="handleReadMore('Harry Potter','Wizard')"
+                  class="tl-btn"
+                >
+                  Read more. . .
+                </p>
+              </div>
+              <div class="tl-mobile-card">
+                <h4>How much higher can a good website convert?</h4>
+                <p class="tl-btn">Read more. . .</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!------------- Our process section start --------------->
-      <!-- <section>
+      <section>
         <div class="process-wrapper">
           <div class="container">
             <h2 class="process-heading">Our Design Process</h2>
@@ -559,14 +657,45 @@
                   </div>
                 </div>
               </div>
+
+              <!-- <div class="process-slider">
+                <div class="process-slider">
+                  <div class="slider-item">
+                    <div class="process-card">
+                      <img src="/assets/images/Frame 75.png" alt="img" />
+                      <p
+                        class="process-card-content process-card-content-first"
+                      >
+                        Our Design Team spends weeks working through different
+                        designs to come up with the best fit for your brand.
+                        This means you will often have multiple concept designs
+                        to choose between.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="slider-item">
+                    <div class="process-card">
+                      <img src="/assets/images/Frame 75.png" alt="img" />
+                      <p
+                        class="process-card-content process-card-content-first"
+                      >
+                        Our Design Team spends weeks working through different
+                        designs to come up with the best fit for your brand.
+                        This means you will often have multiple concept designs
+                        to choose between.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!------------- Our process section end --------------->
 
       <!------------- FAQ section start --------------->
-      <!-- <section>
+      <section>
         <div class="faq-wrapper">
           <div class="container">
             <div class="faq-inner">
@@ -609,18 +738,107 @@
                     </p>
                   </div>
                 </div>
+                <div class="faq-accordion-item">
+                  <div class="faq-accordion-btn">
+                    <h3 class="faq-accordion-title">
+                      Do you have payment options?
+                    </h3>
+                    <svg
+                      width="28"
+                      height="16"
+                      viewBox="0 0 28 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14 11.8756C13.9002 11.7789 13.7866 11.6654 13.6464 11.5253L3.06066 0.939491C2.47487 0.353705 1.52513 0.353705 0.93934 0.939491C0.353553 1.52528 0.353553 2.47503 0.93934 3.06081L11.5251 13.6466C11.5413 13.6628 11.5575 13.679 11.5738 13.6953C11.8638 13.9855 12.1773 14.2993 12.4777 14.5285C12.8296 14.7969 13.3331 15.0859 14 15.0859C14.6669 15.0859 15.1704 14.7969 15.5223 14.5285C15.8227 14.2993 16.1362 13.9855 16.4262 13.6953C16.4425 13.679 16.4587 13.6628 16.4749 13.6466L27.0607 3.06081C27.6464 2.47503 27.6464 1.52528 27.0607 0.939491C26.4749 0.353705 25.5251 0.353705 24.9393 0.939491L14.3536 11.5253C14.2134 11.6654 14.0998 11.7789 14 11.8756Z"
+                        fill="#667085"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="faq-accordion-body">
+                    <p>
+                      We offer payment options, such as payment in three to
+                      certain clients depending on their own financial
+                      situation.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-accordion-item">
+                  <div class="faq-accordion-btn">
+                    <h3 class="faq-accordion-title">
+                      Is there any obligation to purchase anything after the
+                      free review?
+                    </h3>
+                    <svg
+                      width="28"
+                      height="16"
+                      viewBox="0 0 28 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14 11.8756C13.9002 11.7789 13.7866 11.6654 13.6464 11.5253L3.06066 0.939491C2.47487 0.353705 1.52513 0.353705 0.93934 0.939491C0.353553 1.52528 0.353553 2.47503 0.93934 3.06081L11.5251 13.6466C11.5413 13.6628 11.5575 13.679 11.5738 13.6953C11.8638 13.9855 12.1773 14.2993 12.4777 14.5285C12.8296 14.7969 13.3331 15.0859 14 15.0859C14.6669 15.0859 15.1704 14.7969 15.5223 14.5285C15.8227 14.2993 16.1362 13.9855 16.4262 13.6953C16.4425 13.679 16.4587 13.6628 16.4749 13.6466L27.0607 3.06081C27.6464 2.47503 27.6464 1.52528 27.0607 0.939491C26.4749 0.353705 25.5251 0.353705 24.9393 0.939491L14.3536 11.5253C14.2134 11.6654 14.0998 11.7789 14 11.8756Z"
+                        fill="#667085"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="faq-accordion-body">
+                    <p>
+                      We offer payment options, such as payment in three to
+                      certain clients depending on their own financial
+                      situation.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-accordion-item">
+                  <div class="faq-accordion-btn">
+                    <h3 class="faq-accordion-title">
+                      Is there any limit in scope for a website?
+                    </h3>
+                    <svg
+                      width="28"
+                      height="16"
+                      viewBox="0 0 28 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14 11.8756C13.9002 11.7789 13.7866 11.6654 13.6464 11.5253L3.06066 0.939491C2.47487 0.353705 1.52513 0.353705 0.93934 0.939491C0.353553 1.52528 0.353553 2.47503 0.93934 3.06081L11.5251 13.6466C11.5413 13.6628 11.5575 13.679 11.5738 13.6953C11.8638 13.9855 12.1773 14.2993 12.4777 14.5285C12.8296 14.7969 13.3331 15.0859 14 15.0859C14.6669 15.0859 15.1704 14.7969 15.5223 14.5285C15.8227 14.2993 16.1362 13.9855 16.4262 13.6953C16.4425 13.679 16.4587 13.6628 16.4749 13.6466L27.0607 3.06081C27.6464 2.47503 27.6464 1.52528 27.0607 0.939491C26.4749 0.353705 25.5251 0.353705 24.9393 0.939491L14.3536 11.5253C14.2134 11.6654 14.0998 11.7789 14 11.8756Z"
+                        fill="#667085"
+                      />
+                    </svg>
+                  </div>
+
+                  <div class="faq-accordion-body">
+                    <p>
+                      We offer payment options, such as payment in three to
+                      certain clients depending on their own financial
+                      situation.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!------------- FAQ section end --------------->
 
       <!------------- Free booking section start --------------->
-      <!-- <section>
+      <section>
         <div class="booking-wrapper">
           <div class="container">
             <div class="booking-inner">
+              <div class="booking-mb-bg"></div>
               <div class="row">
                 <div class="col-md-7">
                   <div class="booking-content">
@@ -675,11 +893,11 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!------------- Free booking section end --------------->
 
       <!------------- Newsletter section start --------------->
-      <!-- <section>
+      <section>
         <div class="Newsletter-wrapper">
           <div class="newsletter-container">
             <h2>Subscribe to get the latest News about our offer</h2>
@@ -689,7 +907,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <footer class="footer">
@@ -716,9 +934,30 @@
             <p class="copyright-text">Copyright© Zeta Develops</p>
           </div>
         </div>
+        <div class="footer-mobile">
+          <div class="footer-mb-menu">
+            <a href="#">Home</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Contact us</a>
+          </div>
+          <div class="footer-mb-social">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+        <p class="copyright-mb-text">Copyright© Zeta Develops</p>
       </div>
     </footer>
 
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
